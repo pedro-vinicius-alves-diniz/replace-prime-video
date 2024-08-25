@@ -113,9 +113,9 @@
         </nav>
     </header>
 
-    <div id="home" class="w-full min-h-[93vh] bg-home bg-cover object-fill font-poppins">
+    <div id="home" class="w-full min-h-[99.8vh] bg-home bg-cover object-fill font-poppins">
         <div id="content-home" 
-            class="w-[56%] h-[93vh] flex flex-col items-start text-white float-right bg-gradient-to-r from-gray-600/5 to-black to-30% gap-4 pt-5 pl-[90px]">
+            class="w-[56%] min-h-[99.8vh] flex flex-col items-start text-white float-right bg-gradient-to-r from-gray-600/5 to-black to-30% gap-4 pt-5 pl-[90px]">
 
             <h1 class="text-4xl">Ver filmes e séries</h1>
             <p class="text-xl">Com o Amazon Prime, pode ver filmes e séries populares com anúncios limitados, incluindo os Amazon
@@ -154,13 +154,36 @@
     </div>
 
     <div id="channels">
-        <div id="content-channels">
-            
+        <div id="content-channels" class="flex py-3">
+            <div class="w-[50%] flex flex-col pt-3 pl-20 gap-3">
+                <h2 class="text-5xl text-black w-[95%]">Todos os seus canais favoritos num único local</h2>
+
+                <p class="text-2xl text-black mt-3 text-left">Com Prime Video Channels, os clientes podem subscrever os canais premium e especializados sem compromissos de longo prazo e sem ter de fazer download de apps adicionais. Cada subscrição começa com um teste gratuito e pode cancelar quando quiser.</p>
+            </div>
+
+            <div class="grid grid-cols-3 grid-rows-3 gap-1.5">
+                <img class="cursor-pointer hover:shadow-shadow-channel" width="220px" src="assets/img/mlpmagnet_discoveryplus.jpg" alt="">
+                <img class="cursor-pointer hover:shadow-shadow-channel" width="220px" src="assets/img/mlpmagnet_fullmoontv.jpg" alt="">
+                <img class="cursor-pointer hover:shadow-shadow-channel" width="220px" src="assets/img/mlpmagnet_infinity-selection.jpg" alt="">
+                <img class="cursor-pointer hover:shadow-shadow-channel" width="220px" src="assets/img/mlpmagnet_mgmplus.jpg" alt="">
+                <img class="cursor-pointer hover:shadow-shadow-channel" width="220px" src="assets/img/mlpmagnet_midnight-factory.jpg" alt="">
+                <img class="cursor-pointer hover:shadow-shadow-channel" width="220px" src="assets/img/mlpmagnet_mubi.jpg" alt="">
+                <img class="cursor-pointer hover:shadow-shadow-channel" width="220px" src="assets/img/mlpmagnet_noggin.jpg" alt="">
+                <img class="cursor-pointer hover:shadow-shadow-channel" width="220px" src="assets/img/mlpmagnet_paramountplus.jpg" alt="">
+                <img class="cursor-pointer hover:shadow-shadow-channel" width="220px" src="assets/img/mlpmagnet_rarovideo.jpg" alt="">
+            </div>
         </div>
     </div>
 
-    <footer>
-
+    <footer class="bg-black-medium flex flex-col items-center justify-center py-4">
+        <img src="assets/img/footer-logo.png" alt="">
+        <div class="flex gap-3 text-azul-lighter font-medium mt-1">
+            <a href="#">Termos e Aviso de Privacidade</a>
+            <a href="#">Aviso de cookies</a>
+            <a href="#">Envie-nos comentários</a>
+            <a href="#">Ajuda</a>
+        </div>
+        <p class="text-gray-400 text-base mt-2">© 1996-2024, Amazon.com, Inc. ou suas afiliadas</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
